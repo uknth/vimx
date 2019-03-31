@@ -45,7 +45,7 @@ map <F10> :split<cr>
 " Buffer 
 " -----------------------------------
 " Close the current buffer
-map <leader>bd :Bclose<cr>:tabclose<cr>gT
+map <leader>bd :bdelete<cr>:tabclose<cr>gT
 " Close all the buffers
 map <leader>ba :bufdo bd<cr>
 
