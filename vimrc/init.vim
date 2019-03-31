@@ -43,7 +43,6 @@ Plug 'yggdroot/indentline'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
-
 Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
 
 " List ends here. Plugins become visible to Vim after this call.
