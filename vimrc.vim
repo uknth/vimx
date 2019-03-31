@@ -9,3 +9,9 @@ source ~/.vim/vimrc/config.vim
 
 " Keybindings
 source ~/.vim/vimrc/key.vim
+
+" Custom Vim Configs
+try
+source ~/.vimx
+catch
+endtry
