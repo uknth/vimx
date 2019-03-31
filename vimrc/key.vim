@@ -4,10 +4,10 @@ let mapleader = ","
 " Fast saving
 nmap <leader>w :w!<cr>
 " Opens a simple text scratch pad for you to edit
-map <leader>q :e /tmp/buffer<cr>
-nmap <F4> :e /tmp/buffer<cr>
+map <leader>q :e ~/Dropbox/buffer<cr>
+nmap <F4> :e ~/Dropbox/buffer<cr>
 " Opens a simple markdown pad to edit
-map <leader>x :e /tmp/buffer.md<cr>
+map <leader>x :e ~/Dropbox/buffer.md<cr>
 " Enables/Disables paste mode
 map <leader>pp :setlocal paste!<cr>
 nnoremap <F5> :set invpaste paste?<CR>
