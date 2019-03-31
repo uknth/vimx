@@ -45,5 +45,11 @@ Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
 
+" Git for Vim
+Plug 'tpope/vim-fugitive'
+
+" Git Gutter for Vim
+Plug 'airblade/vim-gitgutter'
+
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
