@@ -3,17 +3,23 @@
 Vimx is custom `vim` configuration. It uses `vim-plug` to set up plugins, instead of `pathogen`.
 
 ## Caveats
-`vim 8.x` on Ubuntu doesn't support python2. It, however runs python3 without any issues. The problem is default python version is set to python2 on the operating system. The default path to `pip` is also pointing to pip2 which uses python2. 
-Before installation please ensure that you have `python3-pip` i.e. pip for python3 available on your system. 
-For Ubuntu and variants this can be done as follows
+#### YouCompleteMe
+Youcompleteme has compiled component. To build the YCM components there are a few libraries required. 
+On Fedora 27 & later
 ```
-$ sudo apt-get install python3-pip
-```
-For deoplete.nvim to work, we need additional python module. Please install `pynvim` by using pip3
-```
-$ sudo pip3 install --upgrade pynvim
+sudo dnf install cmake gcc-c++ make python3-devel
 ```
 
+On Ubuntu 16.04 & later
+```
+sudo apt install build-essential cmake python3-dev
+```
+
+YCM build process is auto triggered by vim-plug, however if for some reason that doesn't work, the command to trigger is `cd ~/.vim/plugin/YouCompleteMe && ./install.py --gocode-completer`
+
+This may change when `vim-go` decides to move to `gopls`
+
+#### Tagbar
 Tagbar plugin requires `ctags` for displaying code outline. To install it on Ubuntu and variants use this command
 ```
 $ sudo apt-get install exuberant-ctags
