@@ -9,7 +9,10 @@ For Ubuntu and variants this can be done as follows
 ```
 $ sudo apt-get install python3-pip
 ```
-
+For deoplete.nvim to work, we need additional python module. Please install `pynvim` by using pip3
+```
+$ sudo pip3 install --upgrade pynvim
+```
 
 Tagbar plugin requires `ctags` for displaying code outline. To install it on Ubuntu and variants use this command
 ```
