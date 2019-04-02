@@ -40,10 +40,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'yggdroot/indentline'
 
 " Autocomplete as you type
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'roxma/nvim-yarp'
-Plug 'roxma/vim-hug-neovim-rpc'
-Plug 'deoplete-plugins/deoplete-go', { 'do': 'make'}
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --gocode-completer' }
 
 " Git for Vim
 Plug 'tpope/vim-fugitive'
