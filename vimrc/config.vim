@@ -37,3 +37,8 @@ set wrap "Wrap lines
 
 " Visual mode pressing # searches for the current selection
 vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
+
+
+" For project specific vimrc
+set exrc
+set secure
