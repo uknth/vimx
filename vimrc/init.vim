@@ -48,5 +48,8 @@ Plug 'tpope/vim-fugitive'
 " Git Gutter for Vim
 Plug 'airblade/vim-gitgutter'
 
+" vim-colorsheme for additional colors
+Plug 'flazz/vim-colorschemes'
+
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
