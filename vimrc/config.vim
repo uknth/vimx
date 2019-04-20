@@ -30,7 +30,29 @@ set tabstop=4
 set lbr
 set tw=500
 
+" No annoying sound on errors
+set noerrorbells
+set novisualbell
+set t_vb=
+set tm=500
 
+" Height of command bar
+set cmdheight=1
+
+" Hide buffer when it becomes abandoned
+" set hid
+
+" Highlight search results
+set hlsearch
+
+
+" Show matching bracket
+set showmatch
+
+" Use unix default type
+set ffs=unix,dos,mac
+
+" Indentations
 set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
