@@ -40,7 +40,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'yggdroot/indentline'
 
 " Autocomplete as you type
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --gocode-completer' }
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 
 " Git for Vim
 Plug 'tpope/vim-fugitive'
