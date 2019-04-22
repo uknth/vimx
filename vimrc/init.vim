@@ -51,5 +51,8 @@ Plug 'airblade/vim-gitgutter'
 " vim-colorsheme for additional colors
 Plug 'flazz/vim-colorschemes'
 
+" Buffergator for showing open buffers
+Plug 'jeetsukumaran/vim-buffergator'
+
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
