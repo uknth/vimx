@@ -54,5 +54,11 @@ Plug 'flazz/vim-colorschemes'
 " Buffergator for showing open buffers
 Plug 'jeetsukumaran/vim-buffergator'
 
+" Vim Sugar for Unix Shell commands
+Plug 'tpope/vim-eunuch'
+
+" Gruvbox colorscheme
+Plug 'morhetz/gruvbox'
+
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()

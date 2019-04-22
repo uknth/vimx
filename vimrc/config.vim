@@ -1,6 +1,7 @@
 " Default Colorscheme
-colo seoul256
+colorscheme gruvbox
 set background=dark
+let g:airline_theme='gruvbox'
 
 " Disable Preview Window
 set completeopt-=preview
