@@ -40,7 +40,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'yggdroot/indentline'
 
 " Autocomplete as you type
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+" Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 
 " Git for Vim
 Plug 'tpope/vim-fugitive'
@@ -59,6 +59,10 @@ Plug 'tpope/vim-eunuch'
 
 " Gruvbox colorscheme
 Plug 'morhetz/gruvbox'
+
+" COC.nvim for handling LSP Protocols
+" Please ensure that `yarn` is installed on your system
+Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()

@@ -1,5 +1,4 @@
 " Default Colorscheme
-colorscheme gruvbox
 set background=dark
 let g:airline_theme='gruvbox'
 
@@ -65,3 +64,6 @@ vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
 " For project specific vimrc
 set exrc
 set secure
+
+" margin for vim
+set cc=80,120
