@@ -64,5 +64,8 @@ Plug 'morhetz/gruvbox'
 " Please ensure that `yarn` is installed on your system
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 
+" ayu colorscheme
+Plug 'ayu-theme/ayu-vim'
+
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
