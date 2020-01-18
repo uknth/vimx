@@ -67,3 +67,7 @@ set secure
 
 " margin for vim
 set cc=80,120
+
+
+" Scrolloff to keep 5 lines above and below cursor
+set scrolloff=10
