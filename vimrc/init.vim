@@ -66,6 +66,7 @@ Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 
 " ayu colorscheme
 Plug 'ayu-theme/ayu-vim'
+Plug 'altercation/vim-colors-solarized'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
