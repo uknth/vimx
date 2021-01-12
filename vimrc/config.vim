@@ -1,6 +1,7 @@
 " Default Colorscheme
-set background=dark
-let g:airline_theme='gruvbox'
+set background=light
+let g:airline_theme='tomorrow'
+colorscheme Tomorrow
 
 " Disable Preview Window
 set completeopt-=preview
@@ -66,7 +67,7 @@ set exrc
 set secure
 
 " margin for vim
-set cc=80,120
+set cc=0
 
 
 " Scrolloff to keep 5 lines above and below cursor

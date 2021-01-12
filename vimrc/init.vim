@@ -39,20 +39,11 @@ Plug 'easymotion/vim-easymotion'
 " Indent guides
 Plug 'yggdroot/indentline'
 
-" Autocomplete as you type
-" Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
-
 " Git for Vim
 Plug 'tpope/vim-fugitive'
 
-" Git Gutter for Vim
-Plug 'airblade/vim-gitgutter'
-
 " vim-colorsheme for additional colors
 Plug 'flazz/vim-colorschemes'
-
-" Buffergator for showing open buffers
-Plug 'jeetsukumaran/vim-buffergator'
 
 " Vim Sugar for Unix Shell commands
 Plug 'tpope/vim-eunuch'
@@ -66,7 +57,12 @@ Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 
 " ayu colorscheme
 Plug 'ayu-theme/ayu-vim'
+
+" solarized plugin
 Plug 'altercation/vim-colors-solarized'
+
+" Surround  Plugin
+Plug 'tpope/vim-surround'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()

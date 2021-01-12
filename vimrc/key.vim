@@ -24,10 +24,10 @@ map <C-l> <C-W>l
 
 " Tabs
 " -----------------------------------
-map <leader>tc :tabnew<cr>
-map <leader>td :tabclose<cr>
-map <leader>tp :tabprevious<cr>  
-map <leader>tn :tabnext <cr>
+map <leader>\ :tabnew<cr>
+map <leader>[ :tabprevious<cr>
+map <leader>] :tabnext<cr>
+map <leader>- :tabclose<cr>
 
 " Move between tabs
 nmap <F6> :tabprevious <CR>   " Previous Tab
