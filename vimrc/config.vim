@@ -1,7 +1,7 @@
 " Default Colorscheme
 set background=light
 let g:airline_theme='tomorrow'
-colorscheme Tomorrow
+colorscheme desert
 
 " Disable Preview Window
 set completeopt-=preview
