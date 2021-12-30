@@ -43,7 +43,7 @@ Plug 'yggdroot/indentline'
 Plug 'tpope/vim-fugitive'
 
 " vim-colorsheme for additional colors
-" Plug 'flazz/vim-colorschemes'
+Plug 'flazz/vim-colorschemes'
 
 " Vim Sugar for Unix Shell commands
 Plug 'tpope/vim-eunuch'
@@ -57,9 +57,6 @@ Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 
 " Surround  Plugin
 Plug 'tpope/vim-surround'
-
-" Hybrid Colorscheme, base pallete from Tomorrow-Night
-Plug 'w0ng/vim-hybrid'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
